@@ -1,11 +1,11 @@
 import React from 'react'
-import { View, text } from 'react-native'
+import { View, Text } from 'react-native'
 const Home =() => {
     return(
         <View>
-            <text>
+            <Text>
                 que passa
-            </text>
+            </Text>
         </View>
     )
 }

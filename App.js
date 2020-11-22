@@ -6,6 +6,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Spech from './pages/speech';
 import Home from './pages/Home';
 import Localizacao from './pages/localization';
+import ImagemCamera from './pages/camera';
 
 const Tab = createBottomTabNavigator();
 
@@ -16,6 +17,7 @@ export default function App() {
       <Tab.Screen name="Home" component={Home} />
       <Tab.Screen name="Speech" component={Spech} />
       <Tab.Screen name="Localizacao" component={Localizacao} />
+      <Tab.Screen name="ImagemCamera" component={ImagemCamera} />
     </Tab.Navigator>
   </NavigationContainer>
   );
